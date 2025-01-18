@@ -23,8 +23,8 @@ public class EventSequenceProducerHelpersImpl implements EventSequenceProducerHe
 	
 	private <E> Stream<Pair<Double,E>> producerToStream(EventSequenceProducer<E> producer){
 		return Stream.generate(()->optionalOfFaulty(producer::getNext))
-				.takeWhile(Optional::isPresent)
-				.map(Optional::get);
+		.takeWhile(Optional::isPresent)
+		.map(Optional::get);
 	}
 	
 	@Override
