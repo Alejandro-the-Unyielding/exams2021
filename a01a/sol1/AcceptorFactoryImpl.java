@@ -72,6 +72,7 @@ public class AcceptorFactoryImpl implements AcceptorFactory {
 				return true;
 			}
 
+			@SuppressWarnings("unused")
 			@Override
 			public Optional<String> end() {
 				return this.last.map(i -> string);

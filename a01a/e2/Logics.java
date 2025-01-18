@@ -1,4 +1,4 @@
-package a01a.sol2;
+package a01a.e2;
 
 import java.util.Set;
 

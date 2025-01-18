@@ -47,7 +47,7 @@ public class Test {
 	
 	@org.junit.Before
 	public void initFactory() {
-//		this.factory = new AcceptorFactoryAdvancedImpl();
+		this.factory = new AcceptorFactoryAdvancedImpl();
 	}
 	
 	@org.junit.Test
