@@ -50,7 +50,7 @@ public class Test {
 
 	@org.junit.Before
 	public void initFactory() {
-//		this.helpers = new EventSequenceProducerHelpersImpl();
+		this.helpers = new EventSequenceProducerHelpersImpl();
 	}
 	
 	@org.junit.Test

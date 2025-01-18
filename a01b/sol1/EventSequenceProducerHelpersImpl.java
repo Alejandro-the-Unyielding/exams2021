@@ -10,6 +10,7 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 import java.util.stream.Collectors;
 
+@SuppressWarnings("unused")
 public class EventSequenceProducerHelpersImpl implements EventSequenceProducerHelpers {
 	
 	private <E> Optional<E> optionalOfFaulty(Supplier<E> supplier) {
